@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		499B5B032C21049600A7E1AD /* enano_v1App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 499B5B022C21049600A7E1AD /* enano_v1App.swift */; };
+		499B5B052C21049600A7E1AD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 499B5B042C21049600A7E1AD /* ContentView.swift */; };
+		499B5B072C21049800A7E1AD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 499B5B062C21049800A7E1AD /* Assets.xcassets */; };
+		499B5B0A2C21049800A7E1AD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 499B5B092C21049800A7E1AD /* Preview Assets.xcassets */; };
+		499B5B142C21049800A7E1AD /* enano_v1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 499B5B132C21049800A7E1AD /* enano_v1Tests.swift */; };
+		499B5B1E2C21049800A7E1AD /* enano_v1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 499B5B1D2C21049800A7E1AD /* enano_v1UITests.swift */; };
+		499B5B202C21049800A7E1AD /* enano_v1UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 499B5B1F2C21049800A7E1AD /* enano_v1UITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		499B5B102C21049800A7E1AD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 499B5AF72C21049600A7E1AD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 499B5AFE2C21049600A7E1AD;
+			remoteInfo = "enano v1";
+		};
+		499B5B1A2C21049800A7E1AD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 499B5AF72C21049600A7E1AD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 499B5AFE2C21049600A7E1AD;
+			remoteInfo = "enano v1";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		499B5AFF2C21049600A7E1AD /* enano v1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "enano v1.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		499B5B022C21049600A7E1AD /* enano_v1App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = enano_v1App.swift; sourceTree = "<group>"; };
+		499B5B042C21049600A7E1AD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		499B5B062C21049800A7E1AD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		499B5B092C21049800A7E1AD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		499B5B0F2C21049800A7E1AD /* enano v1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "enano v1Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		499B5B132C21049800A7E1AD /* enano_v1Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = enano_v1Tests.swift; sourceTree = "<group>"; };
+		499B5B192C21049800A7E1AD /* enano v1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "enano v1UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		499B5B1D2C21049800A7E1AD /* enano_v1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = enano_v1UITests.swift; sourceTree = "<group>"; };
+		499B5B1F2C21049800A7E1AD /* enano_v1UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = enano_v1UITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		499B5AFC2C21049600A7E1AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		499B5B0C2C21049800A7E1AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		499B5B162C21049800A7E1AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		499B5AF62C21049600A7E1AD = {
+			isa = PBXGroup;
+			children = (
+				499B5B012C21049600A7E1AD /* enano v1 */,
+				499B5B122C21049800A7E1AD /* enano v1Tests */,
+				499B5B1C2C21049800A7E1AD /* enano v1UITests */,
+				499B5B002C21049600A7E1AD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		499B5B002C21049600A7E1AD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				499B5AFF2C21049600A7E1AD /* enano v1.app */,
+				499B5B0F2C21049800A7E1AD /* enano v1Tests.xctest */,
+				499B5B192C21049800A7E1AD /* enano v1UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		499B5B012C21049600A7E1AD /* enano v1 */ = {
+			isa = PBXGroup;
+			children = (
+				499B5B022C21049600A7E1AD /* enano_v1App.swift */,
+				499B5B042C21049600A7E1AD /* ContentView.swift */,
+				499B5B062C21049800A7E1AD /* Assets.xcassets */,
+				499B5B082C21049800A7E1AD /* Preview Content */,
+			);
+			path = "enano v1";
+			sourceTree = "<group>";
+		};
+		499B5B082C21049800A7E1AD /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				499B5B092C21049800A7E1AD /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		499B5B122C21049800A7E1AD /* enano v1Tests */ = {
+			isa = PBXGroup;
+			children = (
+				499B5B132C21049800A7E1AD /* enano_v1Tests.swift */,
+			);
+			path = "enano v1Tests";
+			sourceTree = "<group>";
+		};
+		499B5B1C2C21049800A7E1AD /* enano v1UITests */ = {
+			isa = PBXGroup;
+			children = (
+				499B5B1D2C21049800A7E1AD /* enano_v1UITests.swift */,
+				499B5B1F2C21049800A7E1AD /* enano_v1UITestsLaunchTests.swift */,
+			);
+			path = "enano v1UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		499B5AFE2C21049600A7E1AD /* enano v1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 499B5B232C21049800A7E1AD /* Build configuration list for PBXNativeTarget "enano v1" */;
+			buildPhases = (
+				499B5AFB2C21049600A7E1AD /* Sources */,
+				499B5AFC2C21049600A7E1AD /* Frameworks */,
+				499B5AFD2C21049600A7E1AD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "enano v1";
+			productName = "enano v1";
+			productReference = 499B5AFF2C21049600A7E1AD /* enano v1.app */;
+			productType = "com.apple.product-type.application";
+		};
+		499B5B0E2C21049800A7E1AD /* enano v1Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 499B5B262C21049800A7E1AD /* Build configuration list for PBXNativeTarget "enano v1Tests" */;
+			buildPhases = (
+				499B5B0B2C21049800A7E1AD /* Sources */,
+				499B5B0C2C21049800A7E1AD /* Frameworks */,
+				499B5B0D2C21049800A7E1AD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				499B5B112C21049800A7E1AD /* PBXTargetDependency */,
+			);
+			name = "enano v1Tests";
+			productName = "enano v1Tests";
+			productReference = 499B5B0F2C21049800A7E1AD /* enano v1Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		499B5B182C21049800A7E1AD /* enano v1UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 499B5B292C21049800A7E1AD /* Build configuration list for PBXNativeTarget "enano v1UITests" */;
+			buildPhases = (
+				499B5B152C21049800A7E1AD /* Sources */,
+				499B5B162C21049800A7E1AD /* Frameworks */,
+				499B5B172C21049800A7E1AD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				499B5B1B2C21049800A7E1AD /* PBXTargetDependency */,
+			);
+			name = "enano v1UITests";
+			productName = "enano v1UITests";
+			productReference = 499B5B192C21049800A7E1AD /* enano v1UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		499B5AF72C21049600A7E1AD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					499B5AFE2C21049600A7E1AD = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					499B5B0E2C21049800A7E1AD = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 499B5AFE2C21049600A7E1AD;
+					};
+					499B5B182C21049800A7E1AD = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 499B5AFE2C21049600A7E1AD;
+					};
+				};
+			};
+			buildConfigurationList = 499B5AFA2C21049600A7E1AD /* Build configuration list for PBXProject "enano v1" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 499B5AF62C21049600A7E1AD;
+			productRefGroup = 499B5B002C21049600A7E1AD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				499B5AFE2C21049600A7E1AD /* enano v1 */,
+				499B5B0E2C21049800A7E1AD /* enano v1Tests */,
+				499B5B182C21049800A7E1AD /* enano v1UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		499B5AFD2C21049600A7E1AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				499B5B0A2C21049800A7E1AD /* Preview Assets.xcassets in Resources */,
+				499B5B072C21049800A7E1AD /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		499B5B0D2C21049800A7E1AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		499B5B172C21049800A7E1AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		499B5AFB2C21049600A7E1AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				499B5B052C21049600A7E1AD /* ContentView.swift in Sources */,
+				499B5B032C21049600A7E1AD /* enano_v1App.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		499B5B0B2C21049800A7E1AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				499B5B142C21049800A7E1AD /* enano_v1Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		499B5B152C21049800A7E1AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				499B5B202C21049800A7E1AD /* enano_v1UITestsLaunchTests.swift in Sources */,
+				499B5B1E2C21049800A7E1AD /* enano_v1UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		499B5B112C21049800A7E1AD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 499B5AFE2C21049600A7E1AD /* enano v1 */;
+			targetProxy = 499B5B102C21049800A7E1AD /* PBXContainerItemProxy */;
+		};
+		499B5B1B2C21049800A7E1AD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 499B5AFE2C21049600A7E1AD /* enano v1 */;
+			targetProxy = 499B5B1A2C21049800A7E1AD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		499B5B212C21049800A7E1AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		499B5B222C21049800A7E1AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		499B5B242C21049800A7E1AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"enano v1/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "enano.enano-v1";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		499B5B252C21049800A7E1AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"enano v1/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "enano.enano-v1";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		499B5B272C21049800A7E1AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "enano.enano-v1Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/enano v1.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/enano v1";
+			};
+			name = Debug;
+		};
+		499B5B282C21049800A7E1AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "enano.enano-v1Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/enano v1.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/enano v1";
+			};
+			name = Release;
+		};
+		499B5B2A2C21049800A7E1AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "enano.enano-v1UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "enano v1";
+			};
+			name = Debug;
+		};
+		499B5B2B2C21049800A7E1AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "enano.enano-v1UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "enano v1";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		499B5AFA2C21049600A7E1AD /* Build configuration list for PBXProject "enano v1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				499B5B212C21049800A7E1AD /* Debug */,
+				499B5B222C21049800A7E1AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		499B5B232C21049800A7E1AD /* Build configuration list for PBXNativeTarget "enano v1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				499B5B242C21049800A7E1AD /* Debug */,
+				499B5B252C21049800A7E1AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		499B5B262C21049800A7E1AD /* Build configuration list for PBXNativeTarget "enano v1Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				499B5B272C21049800A7E1AD /* Debug */,
+				499B5B282C21049800A7E1AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		499B5B292C21049800A7E1AD /* Build configuration list for PBXNativeTarget "enano v1UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				499B5B2A2C21049800A7E1AD /* Debug */,
+				499B5B2B2C21049800A7E1AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 499B5AF72C21049600A7E1AD /* Project object */;
+}
